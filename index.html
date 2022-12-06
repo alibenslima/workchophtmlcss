@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>workshop html css</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="active" href="#homediv">Home</a></li>
+          <li><a href="#aboutdiv">About</a></li>
+          <li><a href="#workdiv">Work</a></li>
+          <li class="classcontact"><a href="#contactdiv">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="part2">
+      <div id="homediv">
+        <h1 class="title">Home:</h1>
+        <h3>Hi, I'm Ali.</h3>
+        <h2 class="soutitre">Web Delopper</h2>
+        <img src="ali.jpg" alt="" class="aliphoto1" />
+        <p class="text">
+          Welcome to our web page. I am so happy that you have visit our site to
+          know more about us.
+        </p>
+      </div>
+      <div id="aboutdiv">
+        <h1 class="title">About me:</h1>
+        <h2 class="soutitre">Creativity is intelligence having fun</h2>
+        <p class="text">I'm Ali BEN SLIMA, bit you can juste call me Ali.</p>
+        <table>
+          <tr>
+            <th>First name</th>
+            <td>Ali</td>
+          </tr>
+          <tr>
+            <th>Last name</th>
+            <td>BEN SLIMA</td>
+          </tr>
+          <tr>
+            <th>Academic background</th>
+            <td>Master in IT</td>
+          </tr>
+          <tr>
+            <th>Formation</th>
+            <td>Full stack developpement in GoMyCode</td>
+          </tr>
+        </table>
+      </div>
+      <div id="workdiv">
+        <h1 class="title">Work:</h1>
+        <p class="text">
+          I am graduated Tunisian who is looking for ameliorate my skills by
+          improving my self step by step with GoMyCode program.
+        </p>
+
+        <img src="ali.jpg" alt="" class="workmedia" />
+        <iframe
+          src="https://www.youtube.com/embed/3jE4QVUAmPI"
+          title="STUDENT TESTIMONIALS - Ahlam - Étudiante en développement FullStack JS à GOMYCODE Casablanca"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="workmedia"
+        ></iframe>
+      </div>
+      <div id="contactdiv">
+        <h1 class="title">Contact:</h1>
+        <form action="">
+          <h6>Your name :</h6>
+          <input type="text" />
+          <h6>Your Phone :</h6>
+          <input type="text" />
+          <h6>E mail :</h6>
+          <input type="text" />
+          <h6>Contry :</h6>
+          <select>
+            <option value="select country">select country</option>
+            <option value="Sfax">Sfax</option>
+            <option value="Sousse">Sousse</option>
+            <option value="Tunis">Tunis</option>
+          </select>
+          <h6>Message:</h6>
+          <textarea name="message" id="" cols="80" rows="10"></textarea>
+          <input type="submit"></input>
+        </form>
+      </div>
+    </main>
+    <footer class="part2"></footer>
+  </body>
+</html>
